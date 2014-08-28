@@ -120,6 +120,45 @@ V2EX非官方API列表，仅供参考，欢迎补充。
 ]
 ```
 
+###取热议主题
+
+**/api/topics/hot.json**
+```
+[
+    
+    {
+        "id" : 130248,
+        "title" : "今晚罗永浩和王自如优酷对质，大家预测谁会赢？",
+        "url" : "http://www.v2ex.com/t/130248",
+        "content" : "世界杯后遗症……想预测结果\u000D\u000A\u000D\u000A附图，不知道能不能看到\u000D\u000Ahttp://ww2.sinaimg.cn/bmiddle/61c921e5jw1ejrbvfjdvej20ri1fmahf.jpg",
+        "content_rendered" : "世界杯后遗症……想预测结果\u003Cbr /\u003E\u003Cbr /\u003E附图，不知道能不能看到\u003Cbr /\u003E\u003Ca target\u003D\u0022_blank\u0022 href\u003D\u0022http://ww2.sinaimg.cn/bmiddle/61c921e5jw1ejrbvfjdvej20ri1fmahf.jpg\u0022 target\u003D\u0022_blank\u0022\u003E\u003Cimg src\u003D\u0022http://ww2.sinaimg.cn/bmiddle/61c921e5jw1ejrbvfjdvej20ri1fmahf.jpg\u0022 class\u003D\u0022imgly\u0022 style\u003D\u0022max\u002Dwidth: 660px\u003B\u0022 border\u003D\u00220\u0022 /\u003E\u003C/a\u003E",
+        "replies" : 218,
+        "member" : {
+            "id" : 52028,
+            "username" : "sniper1211",
+            "tagline" : "",
+            "avatar_mini" : "//cdn.v2ex.com/avatar/1574/5f4c/52028_mini.png?m=1396973137",
+            "avatar_normal" : "//cdn.v2ex.com/avatar/1574/5f4c/52028_normal.png?m=1396973137",
+            "avatar_large" : "//cdn.v2ex.com/avatar/1574/5f4c/52028_large.png?m=1396973137"
+        },
+        "node" : {
+            "id" : 687,
+            "name" : "smartisanos",
+            "title" : "Smartisan OS",
+            "title_alternative" : "Smartisan OS",
+            "url" : "http://www.v2ex.com/go/smartisanos",
+            "topics" : 97,
+            "avatar_mini" : "//cdn.v2ex.com/navatar/7f5d/04d1/687_mini.png?m=1364402617",
+            "avatar_normal" : "//cdn.v2ex.com/navatar/7f5d/04d1/687_normal.png?m=1364402617",
+            "avatar_large" : "//cdn.v2ex.com/navatar/7f5d/04d1/687_large.png?m=1364402617"
+        },
+        "created" : 1409134584,
+        "last_modified" : 1409149779,
+        "last_touched" : 1409199522
+    }
+]
+```
+
 ###取主题信息
 
 **/api/topics/show.json**
